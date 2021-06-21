@@ -1,0 +1,29 @@
+#id{
+    height: 70px;
+    margin-top: 100px;
+    background-color: white;
+}
+#box{
+        animation: mymove 3s;
+}
+@keyframes mymove {
+        from {opacity: 0;}
+        to {opacity: 1;}
+}
+#w{
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:50%;
+    padding: 130px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    display: grid;
+    margin:auto;
+    box-shadow: white 0px 7px 29px 0px;
+}
+button{
+    margin-top:5%;
+}

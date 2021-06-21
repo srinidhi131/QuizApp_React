@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+#head{
+    background-color: black;
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    color: white;  
+    text-align: center;
+    padding-top: 2%;
+    font-size: 25px;
+    font-family: "Sofia", sans-serif;
+}
+#qa{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:50%;
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: white 0px 7px 29px 0px;
+}
+.question-text{
+    color: black;
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+}
+#time{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#answer {
+    padding: 15px 15px 15px 15px;
+}
+button{
+    display: inline;
+    margin-left: 5%;
+}
